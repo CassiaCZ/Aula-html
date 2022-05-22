@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+p{
+    width: 80%;
+    height: auto;
+    margin: 3px auto 20px auto;
+}
+nav#menu{
+    width: 80%;
+    height: auto;
+    padding: 10px;
+    background-color: yellowgreen;
+    margin: 0;
+}
+nav#menu > .item_menu{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+nav#menu > .item_menu:hover{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: azure;
+}

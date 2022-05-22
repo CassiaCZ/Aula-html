@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main, header, footer{
+    width: 80%;
+    background-color: #536DFE;
+    margin: 10px auto 10px auto;
+}
+main{
+    height: auto;
+ 
+}
+header, footer{
+    height: 60px;
+}
+.ajuste{
+    height: 30vh;
+    background-color: #FBC02D;
+}
+.content-card > div{
+    width: 48%;
+    height: 200px;
+    background-color: #FBC02D
+}
+.flex{
+    display: flex;
+}
+.space{
+    justify-content: space-between;
+}
+section{
+    margin: 10px 0 10px 0;
+}
+@media screen and (max-width:700px){
+    body{
+        background-color: black;
+    }
+    section{
+        height: auto;
+        flex-direction: column;
+    }
+    section.content-card > div{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    
+}
